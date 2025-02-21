@@ -1,9 +1,9 @@
-// dissapper section
+// disappear section
 
 const dismiss = document.getElementById("dismiss");
 
 dismiss.addEventListener("click", () => {
-  document.querySelector(".dissappear").style.display = "none";
+  document.querySelector(".disappear").style.display = "none";
 });
 
 
@@ -13,7 +13,7 @@ let sidenav=document.getElementById("side-nav")
 let closesidenav=document.getElementById("close-sidenav")
 
 menubar.addEventListener("click",()=>{
-  sidenav.style.transitionDuration="0.9s"
+  sidenav.style.transitionDuration="1.5"
     sidenav.style.left="0%"
   
   

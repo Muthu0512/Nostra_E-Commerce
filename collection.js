@@ -3,7 +3,7 @@
 const dismiss = document.getElementById("dismiss");
 
 dismiss.addEventListener("click", () => {
-  document.querySelector(".dissapear").style.display = "none";
+  document.querySelector(".disappear").style.display = "none";
 });
 
 // side navbar
@@ -12,7 +12,7 @@ let sidenav=document.getElementById("side-nav")
 let closesidenav=document.getElementById("close-sidenav")
 
 menubar.addEventListener("click",()=>{
-  sidenav.style.transitionDuration="0.9s"
+  sidenav.style.transitionDuration="1.5s"
     sidenav.style.left="0%"
   
   

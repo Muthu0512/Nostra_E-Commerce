@@ -3,7 +3,7 @@
   padding: 0px;
 }
 /*dissapear section*/
-.dissapear {
+.disappear {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -13,16 +13,16 @@
   height: fit-content;
   margin-top: 10px;
 }
-.dissapear h4 {
+.disappear h4 {
   text-align: right;
   margin-left: auto;
 }
-.dissapear p {
+.disappear p {
   text-align: left;
   cursor: pointer;
   margin-right: auto;
 }
-.dissapear span {
+.disappear span {
   color: indigo;
   background-color: transparent;
   width: fit-content;
